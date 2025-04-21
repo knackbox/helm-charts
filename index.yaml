@@ -2,6 +2,18 @@ apiVersion: v1
 entries:
   helloworld:
   - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2025-04-21T00:01:14.487292627Z"
+    description: Test for helm chart repo
+    digest: b8b92f9b542d68e95a91d65a1b9a82224f67137230bfc79ab3e82a6a2718e571
+    name: helloworld
+    sources:
+    - https://github.com/knackbox/helm-charts
+    type: application
+    urls:
+    - https://github.com/knackbox/helm-charts/releases/download/helloworld-0.1.1/helloworld-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 0.1.0
     created: "2025-04-20T23:47:52.862248138Z"
     description: Test for helm chart repo
@@ -13,4 +25,4 @@ entries:
     urls:
     - https://github.com/knackbox/helm-charts/releases/download/helloworld-0.1.0/helloworld-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-20T23:47:52.862259369Z"
+generated: "2025-04-21T00:01:14.487309468Z"
