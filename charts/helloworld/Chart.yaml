@@ -1,8 +1,8 @@
 apiVersion: v2
 type: application
 name: helloworld
-version: 0.1.0
-appVersion: 0.1.0
+version: 0.1.1
+appVersion: 0.1.1
 description: Test for helm chart repo
 sources:
   - https://github.com/knackbox/helm-charts
